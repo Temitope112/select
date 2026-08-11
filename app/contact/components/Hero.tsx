@@ -7,14 +7,14 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden">
       {/* Background */}
-      <Image
-        src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=2070&auto=format&fit=crop"
-        alt="Contact Select Place"
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover"
-      />
+    <Image
+  src="https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?q=80&w=2070&auto=format&fit=crop"
+  alt="Select Place Barber & Spa"
+  fill
+  priority
+  sizes="100vw"
+  className="object-cover"
+/>
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/70 to-black/50" />

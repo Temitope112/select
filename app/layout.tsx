@@ -30,12 +30,13 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full overflow-x-hidden antialiased`}
+      data-scroll-behavior="smooth"
     >
-      <body className="min-h-full">
+      <body className="min-h-screen overflow-x-hidden bg-black text-white">
         <Navbar />
 
-        <main>{children}</main>
+        <main className="overflow-x-hidden">{children}</main>
 
         <Footer />
       </body>
